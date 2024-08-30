@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding:0; 
+    background-image: url("imagenes/fondoo.png");
+    background-size: contain;
+    overflow: visible;
+    outline: 10px solid red;
+}
+
+*{
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+
+.bar{
+    background-image: url("imagenes/Diseño\ sin\ título.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+    width: 100%;
+    height: 120px;
+}
+.logo{
+    width: 230px;
+    margin: 5px 0px 5px 30px;
+}
+.carteles{
+    /* ! profe */
+    gap: 2px;
+    flex-wrap: wrap;
+    /* !  */
+    display: flex;
+    background-image: url("imagenes/fondobar4.png");
+    justify-content: space-evenly;
+}
+.cartel{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-top: 10px;
+}
+@media only screen and (max-width:600px){
+    
+    .cartel{
+        width: 120px;
+    }
+    
+}
+
+
+footer{
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.redes{
+    width: 900px;
+    height: 500px;
+    background-image: url("imagenes/fondo\ redes.png");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px  1px 3px  1px  rgb(37, 37, 37);
+    border-radius: 5%;
+}
+.redes p{
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(204, 204, 11);
+}
+
+.fa-brands{
+    font-size: 100px;
+    color: rgb(180, 180, 13);
+    overflow: hidden;
+}
+.direccion{
+    z-index: 999;
+    width: 90px;
+    height: 90px;
+    background-image: url("imagenes/7967184_3814093.jpg");
+    border-radius: 50%;
+    border: 4px solid rgb(72, 26, 26);
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 90%;
+    bottom: 50px;
+}
+.direccion i{
+    font-size: 50px;
+    color: rgb(155, 13, 13);
+    overflow-y: hidden;
+}
+a{
+    text-decoration-line: none;
+}
+.logo:hover{
+    scale: 0.9;
+    transition: 300ms ease-in-out;
+}
+.direccion:hover{
+    scale: 0.9;
+    transition: 300ms ease-in-out;
+}
+.direccion i:hover{
+    scale: 0.6;
+    transition: 300ms ease-in-out;
+}
+.compra{
+    background-image: url("imagenes/huella.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 120px;
+}
+.marco{
+    background-image: url("imagenes/marco.png");
+    background-size: cover;
+    width: 100%;
+    height: 50px;
+}
+.info{
+    background-image: url("imagenes/fondo-papel.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info h1{
+    position: relative;
+    z-index: 99;
+}
+.parrafo{
+    /* ! profe  */
+    position: relative;
+    z-index: 99;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* !  */
+}
+/* !  */
+.papel{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 80%;
+    min-height: 65%;
+    top: 27%; left: 50%; transform: translate(-50%, 0);
+    margin: auto;
+    padding: 4em;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+    filter: url(#wavy2);
+}
+@media screen and (max-width: 600px) {
+    .papel {
+        width: 100%;
+        min-height: 90%;
+        top: 47%; left: 50%; transform: translate(-50%, 0);
+    }
+    
+}
+.info h1{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* !  */

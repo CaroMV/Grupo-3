@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/745a872ff7.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Zoo-Fauna</title>
+</head>
+<body>
+    <header>
+        <div class="bar">
+            <a href="/"><img class="logo" src="imagenes/logo.png"></a>
+            <a href="/Compra"><div class="compra"><img src="imagenes/comprar.png" alt="" width="90px" height="40px"></div></a>
+        </div>
+        <nav class="carteles">
+            <div class="cartel"><a href="/horarios.html"><img src="imagenes/horarios.png" alt="" width="120px" height="50px"></a></div>
+            <div class="cartel"><a href="/animales.html"><img src="imagenes/animales.png" alt="" width="140px" height="40px"></a></div>
+            <div class="cartel"><a href="/Actividades"><img src="imagenes/actividades.png" alt="" width="140px" height="50px"></a></div>
+            <div class="cartel"><a href="/Ruta"><img src="imagenes/ruta.png" alt="" width="120px" height="50px"></a></div>
+            <div class="cartel"><a href="/nosotros.html"><img src="imagenes/Nosotros.png" alt="" width="120px" height="50px"></a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <div class="slider">
+                <input type="radio" id="sliderOne"name="slider" checked>
+                <input type="radio" id="sliderTwo" name="slider" >
+                <input type="radio" id="sliderThree" name="slider" >
+
+
+                <div class="buttons">
+                    <label for="sliderOne"></label>
+                    <label for="sliderTwo"></label>
+                    <label for="sliderThree"></label>
+                </div>
+
+                <div class="content">
+                    <div class="first"></div>
+                    <div class="second"></div>
+                    <div class="third"></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="redes">
+            <p>conoce nuestras redes</p>
+            <div class="redes-list">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="direccion">
+        <a href="https://www.google.com/maps/@-33.4239257,-70.6803913,2a,75y,320.17h,78.61t/data=!3m7!1e1!3m5!1sp-mAsaP0MQv_mDR-T4IP9A!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D11.389424449091422%26panoid%3Dp-mAsaP0MQv_mDR-T4IP9A%26yaw%3D320.1700600965949!7i13312!8i6656?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D">
+            <i class="fa-solid fa-location-dot"></i>
+        </a>
+    </div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        });
+    </script> 
+</body>
+</html>
